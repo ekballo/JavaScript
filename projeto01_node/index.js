@@ -9,10 +9,10 @@ app.set('views', path.join(__dirname, 'views'));
 
 
 
-var tarefas = ['Arrumar a Sala', 'Comprar pão']
+
 
 app.get('/',(req,res)=>{
-    res.send('index',{tarefaslist: tarefas});
+    res.render('index',{nome:'Jemefox'});
 });
 
 app.listen(5000, () =>{
