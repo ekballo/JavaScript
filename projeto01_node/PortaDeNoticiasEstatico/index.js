@@ -17,8 +17,13 @@ app.set('views', path.join(__dirname, 'views'));
 
 
 app.get('/',(req,res)=>{
-    res.send('Funcionado');
+    res.send('Home');
 });
+
+
+app.get('/:slug',(req,res)=>{
+    res.send('req.params.slug');
+})
 
 app.listen(5000, () =>{
     console.log('server rodando!');
