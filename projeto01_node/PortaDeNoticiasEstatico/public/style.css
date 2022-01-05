@@ -31,6 +31,7 @@ header{
 
 .form-busca form{
     display: inline-block;
+    max: width 200px;
     position: relative;
 }
 
@@ -44,6 +45,7 @@ header{
 
 .form-busca input{
     height: 40px;
+    width: 100px;
     border: 0;
     font-size: 20px;
     color: white;
