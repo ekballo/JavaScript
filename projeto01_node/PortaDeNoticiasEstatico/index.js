@@ -17,7 +17,15 @@ app.set('views', path.join(__dirname, 'views'));
 
 
 app.get('/',(req,res)=>{
-    res.send('Home');
+    console.log(req,query);
+    
+    if(req.query == null){
+        res.send('home');
+    }else{
+        res.send('Você buscou: '+req.query.busca);
+    }
+
+
 });
 
 
