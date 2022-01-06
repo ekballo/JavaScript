@@ -116,19 +116,20 @@ section.outra-noticias h2{
 }
 
 .ultimas{
-    width: 70px;
+    width: 60px;
     padding:0 30px;
+    display: flex;
 }
 
 .mais-lidas{
-    width: 30%;
+    width: 40%;
 }
 
 .mais-lidas > h3{
     background-color: #3F51B5;
     color: white;
     text-align: center;
-    padding: 10px 8 px;
+    padding: 10px 8px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
