@@ -76,7 +76,7 @@ header{
   }
 
   section.noticia-destaque > .center{
-      max-width: 960px;
+      max-width: 940px;
   }
 
 
@@ -135,14 +135,14 @@ section.outras-noticias h2{
 }
 
 .ultimas{
-    width: 60%;
+    width: 50%;
     padding:0 30px;
     display: flex;
 }
 
 .box-ultimas-single{
     text-align: left;
-    width: 49%;
+    width: 29%;
     margin-right: 1%;
     background-color: white;
     padding-bottom: 20px;
@@ -185,7 +185,7 @@ section.outras-noticias h2{
     border-radius: 10px;
     line-height: 76px;
     text-align: center;
-    font-size: 30px
+    font-size: 15px
 }
 
 .conteudo-noticia-single{
@@ -194,6 +194,7 @@ section.outras-noticias h2{
 
 .mais-lidas{
     width: 40%;
+    
 }
 
 .mais-lidas > h3{
@@ -203,4 +204,19 @@ section.outras-noticias h2{
     padding:10px 8px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.mais-lida-noticia-single{
+    text-align: left;
+    padding:20px;
+    display: flex;
+}
+
+.mais-lida-noticia-single img{
+    width:30%
+}
+
+.mais-lida-noticia-single .texto-mais-lida-single{
+    width:70%;
+    padding:0 30px;
 }
