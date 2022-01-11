@@ -263,9 +263,11 @@ section.outras-noticias h2{
     }
     .mais-lidas,.ultimas{
         width: 100%;
+        margin-bottom: 20px;
     }
     .box-ultimas-single{
         width: 100%;
         margin-right: 0;
+        margin-bottom:20px;
     }
 }
