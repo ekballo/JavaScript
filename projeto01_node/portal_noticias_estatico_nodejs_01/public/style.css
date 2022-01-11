@@ -175,6 +175,19 @@ section.outras-noticias h2{
 
 }
 
+.box-ultimas-single a{
+    display: block;
+    width: 181px;
+    height: 76px;
+    border: 1px solid #EBEBEB;
+    text-decoration: none;
+    color: #0aacdc;
+    border-radius: 10px;
+    line-height: 76px;
+    text-align: center;
+    font-size: 30px
+}
+
 .conteudo-noticia-single{
     padding: 20px;
 }
