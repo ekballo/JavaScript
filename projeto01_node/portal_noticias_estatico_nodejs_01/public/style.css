@@ -19,12 +19,18 @@ header{
 }
 
 .logo{
+    text-align: left;
     width:50%;
 }
 
 .logo h2{
     color:white;
 
+}
+
+.logo a{
+    color:white;
+    text-decoration:none;
 }
 
 .form-busca{
@@ -295,6 +301,14 @@ section.noticia{
 }
 
 @media screen and (max-width: 768px){
+    
+    .noticia-single{
+        width: 100%px;
+    }
+
+    .logo{
+        text-align: center;
+    }
     .logo,.form-busca{
         width:100%;
     }
