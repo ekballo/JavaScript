@@ -5,7 +5,7 @@ const hostname = "127.0.0.1";
 const port = 3000;
 
 
-//Criar nono Arquivo
+//Criar novo Arquivo
 
 fs.writeFile('.RhemaCODE.txt','testando teste 1,2,3',function(err){
     if(err) throw err;
