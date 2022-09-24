@@ -2,6 +2,7 @@ import './App.css';
 
 import FirstComponents from "./components/FirstComponents";
 import AnotherComponent from "./components/AnotherComponent";
+import Hooks from './components/Hooks';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <h2>Portal</h2>
       <FirstComponents/>
       <AnotherComponent/>
+      <Hooks/>
     </div>
   );
 }
